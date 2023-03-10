@@ -1,6 +1,6 @@
-function getPercents(percent, number) {
+export function getPercents(percent, number) {
   let percentageOfTheNumber = number*percent/100;
-  console.log(percentageOfTheNumber);
+  return percentageOfTheNumber;
 }
 
 getPercents(20, 100);
